@@ -1,18 +1,11 @@
 def CheckIfPalindrome(cadena):
-    lista = []
-    lista2 = []
+    palabra = cadena[::-1]
 
-    for i in cadena:
-        lista.append(i)
-        lista2.append(i)
-
-    lista2.reverse()
-    print(lista)
-    print(lista2)
-    if (lista != lista2):
+    if palabra != cadena:
         print("No es palindromo")
 
-    print("Es palindromo")
+    else:
+        print("Es palindromo")
 
 
 CheckIfPalindrome(input("Introduzca una cadena: "))
