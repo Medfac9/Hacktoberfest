@@ -29,6 +29,10 @@ def CountVowels(cadena):
     print("Numero total de 'o':", contadorO)
     print("Numero total de 'u':", contadorU)
 
-string = input("Introduzca una cadena: ")
-CountVowels(string)
+def runCon():
+    string = input("Introduzca una cadena: ")
+    CountVowels(string)
+    print("\n")
+    from mainMenu import Running
+    Running()
 

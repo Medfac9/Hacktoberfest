@@ -14,11 +14,15 @@ def computeHCF(x, y):
             
     return hcf
 
-num1 = 54 
-num2 = 24
+def runHcf():
+	num1 = 54 
+	num2 = 24
 
-# take input from the user
-# num1 = int(input("Enter first number: "))
-# num2 = int(input("Enter second number: "))
-
-print("The H.C.F. of", num1,"and", num2,"is", computeHCF(num1, num2))
+	# take input from the user
+	# num1 = int(input("Enter first number: "))
+	# num2 = int(input("Enter second number: "))
+	print("\n")
+	print("The H.C.F. of", num1,"and", num2,"is", computeHCF(num1, num2))
+	print("\n")
+	from mainMenu import Running
+	Running()

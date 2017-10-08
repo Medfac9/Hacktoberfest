@@ -13,7 +13,10 @@ def compruebaExpresiones():
     test_3 = input("Introduzca una tarjeta de crédito: ")
     print("Resultado test_3: {}".format(bool(re.search(r'^[0-9]{4}([\s-]){1}[0-9]{4}\1[0-9]{4}\1[0-9]{4}$', test_3))))
 
+    print("\n")
+    from mainMenu import Running
+    Running()
 
 
-compruebaExpresiones()
+# compruebaExpresiones()
 

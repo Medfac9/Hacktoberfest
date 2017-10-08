@@ -7,6 +7,10 @@ def CheckIfPalindrome(cadena):
     else:
         print("Es palindromo")
 
-
-CheckIfPalindrome(input("Introduzca una cadena: "))
+def runPal():
+	print("\n")
+	CheckIfPalindrome(input("Introduzca una cadena: "))
+	print("\n")
+	from mainMenu import Running
+	Running()
 
