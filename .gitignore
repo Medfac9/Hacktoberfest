@@ -103,6 +103,8 @@ ENV/
 
 # MacOS System Files
 **/.DS_Store
+**/.DS_Store
 
 # MacOS Thumbnails
 ._*
+
